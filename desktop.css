@@ -136,13 +136,13 @@ body {
     display: none;
 }
 
-.text32 {
+.text {
     position: relative;
     line-height: 24px;
     font-weight: 600;
 }
 
-.content18 {
+.nav_content {
     flex: 1;
     display: flex;
     flex-direction: row;
@@ -241,7 +241,7 @@ body {
     gap: 16px;
 }
 
-.supporting-text8,
+.supp_text,
 .title {
     align-self: stretch;
     position: relative;
@@ -252,7 +252,7 @@ body {
     font-weight: 500;
 }
 
-.supporting-text8 {
+.supp_text {
     color: #475467;
 }
 
@@ -273,7 +273,7 @@ body {
     overflow: hidden;
 }
 
-.button14 {
+.logoutbutton {
     margin: 0 !important;
     position: absolute;
     top: -8px;
@@ -348,36 +348,36 @@ body {
     flex-shrink: 0;
 }
 
-.text47 {
+.lab_text {
     position: relative;
     line-height: 20px;
     font-weight: 500;
 }
 
-.text50 {
+.bt_txt {
     position: relative;
     line-height: 20px;
     font-weight: 600;
 }
 
-.supporting-text9,
-.text51 {
+.heading_text,
+.txt {
     align-self: stretch;
     position: relative;
 }
 
-.text51 {
+.txt {
     line-height: 38px;
     font-weight: 600;
 }
 
-.supporting-text9 {
+.heading_text {
     font-size: 16px;
     line-height: 24px;
     color: #475467;
 }
 
-.text-and-supporting-text5 {
+.acctxt {
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -387,7 +387,7 @@ body {
     font-size: 30px;
 }
 
-.button17 {
+.voilet_button {
     border-radius: 8px;
     overflow: hidden;
     padding: 10px 16px;
@@ -395,7 +395,7 @@ body {
     gap: 8px;
 }
 
-.button17 {
+.voilet_button {
     background-color: #fff;
     box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
     border: 1px solid #d0d5dd;
@@ -403,14 +403,14 @@ body {
 }
 
 .actions3,
-.button17,
-.button18 {
+.voilet_button,
+.white_button {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-.button18 {
+.white_button {
     border-radius: 8px;
     background-color: #7f56d9;
     box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
@@ -428,12 +428,12 @@ body {
     color: #475467;
 }
 
-.text56 {
+.mail {
     position: relative;
     line-height: 24px;
 }
 
-.content26 {
+.form_content_ {
     flex: 1;
     display: flex;
     flex-direction: row;
@@ -442,13 +442,13 @@ body {
     gap: 8px;
 }
 
-.input-with-label10 {
+.name_input-label {
     align-self: stretch;
     display: flex;
     justify-content: flex-start;
 }
 
-.input-with-label10 {
+.name_input-label {
     flex-direction: column;
     align-items: flex-start;
     gap: 6px;
@@ -462,14 +462,14 @@ body {
 }
 
 .avatar-and-content,
-.content25,
+.main_content,
 .heading {
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
 }
 
-.content25 {
+.main_content {
     flex: 1;
     flex-direction: column;
     padding: 64px 0 0;
@@ -492,7 +492,7 @@ body {
 
 .container3,
 .page-header1,
-.text-and-supporting-text6 {
+.div_sup_text {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -503,13 +503,13 @@ body {
     align-items: center;
 }
 
-.text-and-supporting-text6 {
+.div_sup_text {
     width: 280px;
     flex-shrink: 0;
     align-items: flex-start;
 }
 
-.text58 {
+.mail_text {
     flex: 1;
     position: relative;
     line-height: 24px;
@@ -532,7 +532,7 @@ body {
     color: #101828;
 }
 
-.input-field5 {
+.name_input {
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -566,7 +566,7 @@ body {
     gap: 8px;
 }
 
-.text62 {
+.drag {
     position: relative;
     line-height: 20px;
     color: #475467;
@@ -581,7 +581,7 @@ body {
     gap: 4px;
 }
 
-.supporting-text11 {
+.png {
     align-self: stretch;
     position: relative;
     font-size: 12px;
@@ -590,13 +590,13 @@ body {
     text-align: center;
 }
 
-.text-and-supporting-text7 {
+.file_sup_text {
     gap: 4px;
 }
 
-.content32,
+.file_content,
 .file-upload-base1,
-.text-and-supporting-text7 {
+.file_sup_text {
     align-self: stretch;
     display: flex;
     flex-direction: column;
@@ -604,7 +604,7 @@ body {
     justify-content: flex-start;
 }
 
-.content32 {
+.file_content {
     gap: 12px;
 }
 
@@ -616,7 +616,7 @@ body {
 }
 
 .avatar-and-file-upload1,
-.content28,
+.form5_content,
 .file-upload1 {
     display: flex;
     align-items: flex-start;
@@ -629,7 +629,7 @@ body {
 }
 
 .avatar-and-file-upload1,
-.content28 {
+.form5_content {
     align-self: stretch;
 }
 
@@ -639,7 +639,7 @@ body {
     color: #6941c6;
 }
 
-.content28 {
+.form5_content {
     background-color: #fff;
     flex-direction: column;
     padding: 24px;
@@ -652,7 +652,7 @@ body {
 
 .actions4,
 .button20,
-.content33 {
+.foot_content {
     flex-direction: row;
     align-items: center;
 }
@@ -665,7 +665,7 @@ body {
 }
 
 .actions4,
-.content33 {
+.foot_content {
     display: flex;
     justify-content: flex-end;
 }
@@ -675,13 +675,13 @@ body {
     gap: 12px;
 }
 
-.content33 {
+.foot_content {
     align-self: stretch;
     padding: 0 24px;
     gap: 16px;
 }
 
-.content27,
+.coontent,
 .form5,
 .section-footer2 {
     align-self: stretch;
@@ -697,7 +697,7 @@ body {
     color: #475467;
 }
 
-.content27,
+.coontent,
 .form5 {
     align-items: flex-start;
 }
@@ -712,7 +712,7 @@ body {
     flex-direction: column;
 }
 
-.content27 {
+.coontent {
     flex-direction: row;
     gap: 32px;
 }
@@ -841,7 +841,7 @@ body {
     margin-block-end: 16px;
 }
 
-.text73 {
+.description {
     align-self: stretch;
     flex: 1;
     position: relative;
@@ -886,12 +886,12 @@ body {
 }
 
 .supporting-text14,
-.text74 {
+.time_text {
     position: relative;
     line-height: 24px;
 }
 
-.text74 {
+.time_text {
     font-weight: 500;
 }
 
@@ -910,7 +910,7 @@ body {
     gap: 8px;
 }
 
-.wysiwyg-editor-icon9 {
+.wysiwyg-editor-icon {
     position: relative;
     border-radius: 6px;
     width: 32px;
@@ -947,14 +947,14 @@ body {
     color: #475467;
 }
 
-.content35,
+.form5-content,
 .form4 {
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
 }
 
-.content35 {
+.form5-content {
     align-self: stretch;
     flex-direction: column;
     padding: 24px;
@@ -1014,7 +1014,7 @@ body {
 }
 
 @media only screen and (max-width: 1100px) {
-    .content27 {
+    .coontent {
         display: flex;
         flex-direction: column;
     }
